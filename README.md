@@ -71,13 +71,13 @@ an interval in the legend highlights it.
 
 N means a normal cycle, not a healthy heart: every MIT-BIH record is from a patient.
 
-## Two bands in Δt₂
+## Bands in Δt₂
 
-In some records the Δt₂ cube shows two bands, and they follow the MIT-BIH labels:
+In some records the Δt₂ cube shows two or three bands, and they follow the MIT-BIH labels:
 
 | record | short band | long band |
 |---|---|---|
-| mitdb119 | the cycles with a premature V, and N | the N cycle after each V: the compensatory pause |
+| mitdb119 | three bands: N→V coupling interval (~0.5 s), N→N normal rhythm (~0.9 s), V→N compensatory pause (~1.3 s) | |
 | mitdb231 | R cycles (bundle branch block) | N cycles in 2:1 AV block: one P out of two is not conducted |
 | mitdb232 | A and R cycles | the long pauses after the atrial premature cycles |
 | mitdb221 | atrial fibrillation: irregular cycles, the two bands are less clean | |
