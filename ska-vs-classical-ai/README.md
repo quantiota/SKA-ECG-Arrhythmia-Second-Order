@@ -29,10 +29,11 @@ Only then are the cardiologists' labels placed on the cube.
 
 ## Example: MIT-BIH record 119
 
-In the cube of the time between cycles, the cycles form two bands:
+In the cube of the time between cycles, the cycles form three bands:
 
-- the short band holds the premature ventricular beats (V) and the normal cycles;
-- the long band holds the normal beat that follows each V: the compensatory pause.
+- the short band (about 0.5 s) holds the premature ventricular beats (V);
+- the middle band (about 0.9 s) holds the normal cycles;
+- the long band (about 1.3 s) holds the cycle that follows each V: the compensatory pause.
 
 SKA was never told what a V or a compensatory pause is. It placed them apart on its own; the
 labels only show what each band is.
