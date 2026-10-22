@@ -140,7 +140,6 @@ PhysioNet MIT-BIH Arrhythmia Database, lead MLII, 360 Hz. Four cubes per record:
 ```bash
 cd scripts
 python cycle_vectors.py mitdb mitdb100 25            # cycle vectors, path, c_k, return
-python learn_second_order.py mitdb mitdb100 25 25    # second-order learning (second-order scale 25)
 python plot_second_order.py mitdb mitdb100 25 25     # figure
 python build_cube2.py mitdb mitdb100 25 25           # P₂ cube
 python build_cube2.py mitdb mitdb100 25 25 dt        # Δt₂ cube

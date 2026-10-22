@@ -5,7 +5,7 @@ coloured by the return learned.
 Usage
     python scripts/plot_second_order.py mitdb mitdb100 25 25
         → mitdb/figures/ska2_mitdb100_scale25_scale25.png
-Requires: <dataset>/data/ska2_<record>_scale<s1>_scale<s2>.csv (learn_second_order.py), pandas, matplotlib
+Requires: <dataset>/data/ska2_<record>_scale<s1>_scale<s2>.csv (the second-order learning results), pandas, matplotlib
 """
 import sys
 

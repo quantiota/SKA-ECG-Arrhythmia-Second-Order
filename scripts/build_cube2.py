@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """3D cube (HTML, Three.js, WebXR) of a second-order run: one point per cycle.
 
@@ -13,7 +14,7 @@ Usage
     python scripts/build_cube2.py mitdb mitdb100 25 25 dt # → mitdb/vr/ska2_ecg_mitdb100_scale25_scale25_dt_vr.html
     python scripts/build_cube2.py mitdb mitdb100 25 25 label     # → ..._scale25_label_vr.html
     python scripts/build_cube2.py mitdb mitdb100 25 25 dt label  # → ..._scale25_dt_label_vr.html
-Requires: <dataset>/data/ska2_<record>_scale<s1>_scale<s2>.csv (learn_second_order.py), the record's .atr, pandas
+Requires: <dataset>/data/ska2_<record>_scale<s1>_scale<s2>.csv (the second-order learning results), the record's .atr, pandas
 """
 import json
 import sys
